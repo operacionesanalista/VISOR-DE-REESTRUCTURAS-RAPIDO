@@ -130,7 +130,7 @@ if uploaded_file:
 
     # --- 6. RESUMEN ESTADÍSTICO ---
     with col1:
-        st.subheader("📊 Métricas")
+        st.subheader("Métricas")
         st.metric("TIENDAS EN PANTALLA", len(df_filtrado))
         st.metric("CONTEO DE RUTAS", df_filtrado[col_ruta].nunique())
         
